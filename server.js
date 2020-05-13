@@ -6,6 +6,8 @@ app.use(express.json());
 
 var done = false;
 
+let todos = [];
+
 //add data to html page and then serve it to browser
 app.use('/', express.static(__dirname + '/frontend'));
 
